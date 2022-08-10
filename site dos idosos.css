@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+*{
+    margin: auto;
+    padding: 0;
+}
+body{
+    height: 1327px;
+    width: 414px;
+}
+header{
+    background-color: #3548F3;
+    position: relative;
+    width: 414px;
+    height: 100px;
+}
+.sino{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.5em;
+    position: relative;
+    top: 30px;
+    right: 354px;
+    left: 20px;
+}
+.menu{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
+    display: inline-block;
+    border-radius: 10px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    top: -15px;
+    left: 354px;
+    right: 20px;
+}
+.pesquisa{
+    margin-top: 40px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.2);
+    border-radius: 100px;
+    display: inline-block;
+
+}
+.buscar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    padding-left: 6em;
+    vertical-align: right;
+}
+.lupa{
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 335px;
+    margin-bottom: 9px;
+    position: relative
+}
+.lupa, .buscar{
+    display: inline-block;
+}
