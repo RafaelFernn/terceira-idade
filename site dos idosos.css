@@ -6,12 +6,13 @@
 body{
     height: 1327px;
     width: 414px;
+    font-family: 'Poppins', sans-serif;
 }
 header{
     background-color: #3548F3;
-    position: relative;
     width: 414px;
     height: 100px;
+
 }
 .sino{
     background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
@@ -36,27 +37,39 @@ header{
     left: 354px;
     right: 20px;
 }
-.pesquisa{
+#Buscar{
+    background-image: url("img/loupe.png") ;
+    background-repeat: no-repeat;
+    background-size: 23px;
+    background-position-y: 8px;
+    background-position-x: 16px;
+    margin-left: 20px;
     margin-top: 40px;
-    border-style: solid;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 55px;
+    padding-right: 149px;
     border-color: rgba(0,0,0,0.2);
     border-radius: 100px;
-    display: inline-block;
-
 }
-.buscar{
-    font-family: 'Poppins', sans-serif;
+::placeholder{
     font-size: 12px;
-    padding-left: 6em;
-    vertical-align: right;
+    color:black;
 }
-.lupa{
-    margin-top: 8px;
-    margin-left: 16px;
-    margin-right: 335px;
-    margin-bottom: 9px;
-    position: relative
+.Extensão-Ensino{
+    list-style-type: none;
 }
-.lupa, .buscar{
+li{
     display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Extensão{
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 60px;
+    margin-left: 49px;
 }
