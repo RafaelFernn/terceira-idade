@@ -2,40 +2,24 @@
 *{
     margin: auto;
     padding: 0;
+    max-width: 414px;
+
 }
 body{
-    height: 1327px;
-    width: 414px;
     font-family: 'Poppins', sans-serif;
 }
 header{
     background-color: #3548F3;
     width: 414px;
     height: 100px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
-.sino{
-    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
-    display: inline-block;
-    border-radius: 10px;
-    padding: 0.5em;
-    position: relative;
-    top: 30px;
-    right: 354px;
-    left: 20px;
-}
-.menu{
-    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2));
-    display: inline-block;
-    border-radius: 10px;
-    padding-top: 13px;
-    padding-bottom: 14px;
-    padding-left: 10px;
-    padding-right: 10px;
-    position: relative;
-    top: -15px;
-    left: 354px;
-    right: 20px;
+figure{
+    margin: 20px;
 }
 #Buscar{
     background-image: url("img/loupe.png") ;
@@ -43,18 +27,18 @@ header{
     background-size: 23px;
     background-position-y: 8px;
     background-position-x: 16px;
+    display: center;
+    width: 374px;
+    height: 40px;
     margin-left: 20px;
     margin-top: 40px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 55px;
-    padding-right: 149px;
     border-color: rgba(0,0,0,0.2);
     border-radius: 100px;
 }
 ::placeholder{
     font-size: 12px;
     color:black;
+    padding: 49px;
 }
 .Extensão-Ensino{
     list-style-type: none;
@@ -63,13 +47,28 @@ li{
     display: inline-block;
 }
 a{
-    text-decoration: none;
     color: black;
+    text-decoration: none;
 }
 .Extensão{
-    color: black;
     font-size: 14px;
-    text-decoration: none;
     margin-top: 60px;
     margin-left: 49px;
+    align-items: center;
+    font-weight: 500;
+
+}
+.Extensãoletra{
+    text-decoration: underline 2px;
+    text-decoration-color: #3548F3;
+    padding:20px;
+    border-radius: 50%;
+}
+.Ensino{
+    font-size: 12px;
+}
+main{
+    border-color: rgba(0,0,0,0.2);
+    border-radius: 100px;
+    display: center;
 }
