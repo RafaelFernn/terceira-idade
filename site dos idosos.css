@@ -2,17 +2,13 @@
 *{
     margin: auto;
     padding: 0;
-    max-width: 414px;
-
 }
 body{
     font-family: 'Poppins', sans-serif;
 }
 header{
     background-color: #3548F3;
-    width: 414px;
     height: 100px;
-    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,48 +23,86 @@ figure{
     background-size: 23px;
     background-position-y: 8px;
     background-position-x: 16px;
-    display: center;
-    width: 374px;
     height: 40px;
-    margin-left: 20px;
+    width: 95%;
     margin-top: 40px;
+    margin-left: 20px;
+    margin-inline-end: 20px;
     border-color: rgba(0,0,0,0.2);
     border-radius: 100px;
+    padding-left: 49px;
+    box-sizing: border-box;
 }
 ::placeholder{
     font-size: 12px;
     color:black;
-    padding: 49px;
-}
-.Extensão-Ensino{
-    list-style-type: none;
 }
 li{
-    display: inline-block;
+    display: inline-block; /* auygduwyajwd*/
 }
 a{
     color: black;
     text-decoration: none;
 }
+.Extensao-Ensino{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 212px;
+}
 .Extensão{
     font-size: 14px;
-    margin-top: 60px;
-    margin-left: 49px;
-    align-items: center;
+    margin-right: 30px;
     font-weight: 500;
-
-}
-.Extensãoletra{
-    text-decoration: underline 2px;
-    text-decoration-color: #3548F3;
-    padding:20px;
-    border-radius: 50%;
+    border-bottom: 2px solid #3548F3;
+    border-radius: 2px;
+    padding-bottom: 4px;
+    line-height: 1.5;
 }
 .Ensino{
     font-size: 12px;
 }
 main{
-    border-color: rgba(0,0,0,0.2);
-    border-radius: 100px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
     display: center;
+    margin: 40px 20px  ;
+}
+.container-atv{
+    margin-top: 20px;
+}
+.container-atv .atividades{
+
+    padding: 20px 56px;
+    margin: 20px;
+    max-width: 374px;
+    box-sizing: border-box;
+
+    display: flex;
+    align-content: center;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.atividades div{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px 0;
+    width: 80px;
+    height: 80px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 319px) {
+    #Buscar{
+        width: auto;
+    }
+    .container-atv .atividades{
+        padding: 20px 70px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container-atv .atividades{
+        padding: 20px 40px;
+    }
 }
